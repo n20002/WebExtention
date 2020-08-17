@@ -1,0 +1,85 @@
+@charset "utf-8";
+h1.main-style {
+	padding: 0.5em;
+	color: #fffafa;
+	background: #ff8c00;
+	border-bottom: solid 3px #ff8c00;
+}
+
+h2.main-style2 {
+	padding: 0.25em 0.5em;/*上下 左右の余白*/
+	color: #ff5e00;/*文字色*/
+	background: transparent;/*背景透明に*/
+	border-left: solid 5px #7db4e6;/*左線*/
+}
+
+h2.main-style3 {
+	padding: 0.25em 0.5em;/*上下 左右の余白*/
+	color: #019114;/*文字色*/
+	background: transparent;/*背景透明に*/
+	border-left: solid 5px #0a569e;/*左線*/
+}
+h3.main-style4 {
+	/*線の種類（二重線）太さ 色*/
+	border-bottom: double 5px #FFC778;
+  }
+
+  h2.main-style5 {
+	padding: 0.25em 0.5em;/*上下 左右の余白*/
+	color: #ffffff;/*文字色*/
+	background: #ff5e00;/*背景透明に*/
+  }
+
+p {
+	line-height: 0.5em
+}
+
+#wraparound
+p {
+	line-height: 0.5em
+}
+#wraparound
+.float-box {
+	float: left;
+	margin-right: 4em;
+	margin-bottom: 0.5em;
+	vertical-align: baseline;
+}
+#wraparound
+.float-clear {
+	overflow: hidden;
+}
+
+ul.pointnone{
+	list-style-type: none;
+	}
+
+li.pointnone{
+	list-style-type: none;
+	}
+
+.pic_frame {
+	display: inline-block;
+	text-align: center;
+	 }
+
+	 ul.design {
+		background: #fffcf4;
+		border-radius :8px;/*角の丸み*/
+		box-shadow :0px 0px 5px silver;/*5px=影の広がり具合*/
+		padding: 0.5em 0.5em 0.5em 2em;
+	  }
+	  ul li.design {
+		line-height: 1.5;
+		padding: 0.5em 0;
+	  }
+
+.center {
+	text-align: center;
+}
+
+.inline {
+	list-style-type: none;
+	}
+
+	 
