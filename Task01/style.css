@@ -1,9 +1,10 @@
 @charset "utf-8";
 h1.main-style {
+	font-size: 35px;
 	padding: 0.5em;
 	color: #fffafa;
-	background: #ff8c00;
-	border-bottom: solid 3px #ff8c00;
+	background: #ff5e00;
+	border-bottom: solid 3px #ff5e00;
 }
 
 h2.main-style2 {
@@ -19,6 +20,7 @@ h2.main-style3 {
 	background: transparent;/*背景透明に*/
 	border-left: solid 5px #0a569e;/*左線*/
 }
+
 h3.main-style4 {
 	/*線の種類（二重線）太さ 色*/
 	border-bottom: double 5px #FFC778;
@@ -30,22 +32,26 @@ h3.main-style4 {
 	background: #ff5e00;/*背景透明に*/
   }
 
+
+  h2.main-style6 {
+	padding: 0.25em 0.5em;/*上下 左右の余白*/
+	color: #1a74c9;/*文字色*/
+	background: transparent;/*背景透明に*/
+	border-left: solid 5px #2dc040;/*左線*/
+}
+
 p {
 	line-height: 0.5em
 }
 
-#wraparound
-p {
-	line-height: 0.5em
-}
-#wraparound
+
+
 .float-box {
 	float: left;
 	margin-right: 4em;
 	margin-bottom: 0.5em;
 	vertical-align: baseline;
 }
-#wraparound
 .float-clear {
 	overflow: hidden;
 }
@@ -63,13 +69,14 @@ li.pointnone{
 	text-align: center;
 	 }
 
-	 ul.design {
+	 table.design {
 		background: #fffcf4;
 		border-radius :8px;/*角の丸み*/
 		box-shadow :0px 0px 5px silver;/*5px=影の広がり具合*/
-		padding: 0.5em 0.5em 0.5em 2em;
+		padding: 10em 10em 10em 10em;
+		margin: 10px 20px 0px 20px
 	  }
-	  ul li.design {
+	  table.design {
 		line-height: 1.5;
 		padding: 0.5em 0;
 	  }
@@ -78,8 +85,53 @@ li.pointnone{
 	text-align: center;
 }
 
-.inline {
-	list-style-type: none;
-	}
+/* セル幅を自動調整 */
+table, th, td {
+	width: auto !important;
+  }
 
+  .link
+  a {
+	  color: #0073bc;
+  }
+  .link
+  a:link{
+	  color: #0073bc;
+  }
+  .link
+  a:visited {
+	  color: #02314c;
+  }
+  .link
+  a:hover {
+	  color: #b7dbf2;
+  }
+  .link
+  a:active {
+	  color: #4ca4e8;
+  }
+
+  .hspace {
+	margin: 0px 100px 0px 90px;
+  }
+  
+  .hspace2{
+	margin: 0px 40px 0px 150px;
+  }
+  .hspace3{
+	  margin: 0px 80px 0px 100px
+  }
+  
+  .hspace4{
+	  margin: 0px 0px 0px 150px
+  }
 	 
+td{
+	padding: 0px 15px 0px 20px
+}
+
+th{
+	font-size: 20px;
+	padding: 15px 10px 15px 10px
+	
+}
